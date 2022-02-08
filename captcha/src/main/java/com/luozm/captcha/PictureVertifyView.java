@@ -75,7 +75,7 @@ class PictureVertifyView extends AppCompatImageView {
         mStrategy = new DefaultCaptchaStrategy(context);
         shadowPaint = mStrategy.getBlockShadowPaint();
         bitmapPaint = mStrategy.getBlockBitmapPaint();
-        setLayerType(View.LAYER_TYPE_SOFTWARE, bitmapPaint);
+       // setLayerType(View.LAYER_TYPE_SOFTWARE, bitmapPaint);
     }
 
     private void initDrawElements(){
